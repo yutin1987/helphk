@@ -4,7 +4,7 @@ import { string } from 'prop-types'
 
 const defaultDescription = ''
 const defaultOGURL = 'https://helphk.tw/'
-const defaultOGImage = ''
+const defaultOGImage = '/static/cover.jpg'
 
 const Head = props => (
   <NextHead>
