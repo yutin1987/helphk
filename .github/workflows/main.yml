@@ -19,6 +19,7 @@ jobs:
         yarn install
         yarn build
         yarn export
+        echo "helphk.tw" > out/CNAME
     - name: Run Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
